@@ -1,0 +1,23 @@
+@import url(./lightBox.css);
+:root{
+    --gris: #a8a8a5;
+    --amarillo: #fcd40a;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding-top: .5rem;
+    background-color: var(--gris);
+}
+
+.linea{
+    padding-left: 50%;
+    padding-right: 50%;
+    height: 15px;
+    background-color: var(--amarillo);
+}
