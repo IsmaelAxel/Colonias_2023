@@ -1,12 +1,13 @@
 @import url(./lightBox.css);
+@import url(./tarjetas.css);
 :root{
     --gris: #a8a8a5;
     --amarillo: #fcd40a;
-    --titulo: 'Poller One', cursive;
+    --titulo: 'Roboto', sans-serif;
 
 }
 main{
-    background-image: url(./fondos/fondo.webp);
+    background-image: url(./fondos/fondo-mar.jpg);
     background-size: 200px;
     
 }
@@ -48,9 +49,16 @@ footer div.nav-footer{
 
 }
 
+.subtitulo{
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-family: var(--titulo);
+}
+
 .banner{
     width: 100%;
-    height: 250px;
+    height: 225px;
     animation: banner 30s infinite linear alternate;
     background-size: 100% 100%;
     position: relative;
@@ -58,6 +66,7 @@ footer div.nav-footer{
     justify-content: center;
     align-items: center;
 }
+
 @keyframes banner{
     0%, 25%{
         background-image: url(./Banners/banner.png);
@@ -78,82 +87,12 @@ footer div.nav-footer{
         border-bottom-right-radius: 10px;
     }
     75%, 100%{
-        background-image: url(./Banners/banner.png);
+        background-image: url(./Banners/banner2.png);
         object-fit: cover;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
     }
 
 }
-
-.contenedor-card{
-    
-    display: flex;
-    flex-direction: column;
-    /* border: 1px double violet; */
-    width: 85%;
-    margin: auto;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-.card-1{
-    display: flex;
-    background-image: linear-gradient(#18DD81,#1CACEB);
-    border-radius: 10px;
-    flex-direction: row;
-    color: #fff;
-
-}
-.card-imagen{
-    width: 60%;
-   /*  border: 2px solid blue; */
-
-}
-.card-imagen img{
-    width: 100%;
-    min-height: 100%;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-}
-
-.card-texto-1{
-    width: 100%;
-   /*  border: 2px solid green; */
-   padding: 10px;
-   text-align: center;
-}
-
-.contenedor-card-2{
-    display: flex;
-    flex-direction: column;
-    width: 85%;
-    margin: auto ;
-    margin-bottom: .5rem;
-    
-
-    
-}
-
-.card-2{
-    display: flex;
-    background-image: linear-gradient(#C918F9,#8218F9);
-    border-radius: 10px;
-    flex-direction: row-reverse;
-    color: #fff;
-
-}
-
-.card-imagen-2 img{
-    width: 100%;
-    min-height: 100%;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-.card-imagen-2{
-    width: 60%;
-   /*  border: 2px solid blue; */
-
-}
-
 
 
