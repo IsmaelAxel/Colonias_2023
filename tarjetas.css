@@ -1,4 +1,58 @@
-.contenedor-card{
+/* Aca empieza las tarjetas Inicial */
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+ }
+ .tarjeta{
+     width: 730px;
+     height: 600px;
+     margin-top: 2px;
+     background-color: #fff;
+     padding: 20px;
+     border-radius: 20px;
+     color: #fff;
+     text-align: center;
+     
+     
+ }
+ .cuerpo{
+     padding: 10px;
+ }
+ .tarjeta img{
+     width: 100%;
+     height: 400px;
+     
+ 
+ }
+ .btn{
+     background-color: #851919;
+  
+     color: white;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 15px;
+     margin: 5px 5px;
+     cursor: pointer;
+     transition-duration: 0.4s;
+     border-radius: 10px
+     ;
+    }
+    .btn:hover{
+     background-color: #23272a;
+     color: #fff;
+     box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.24), 0 50px 50px 0 rgba(0,0,0,0.19);
+    }
+
+    /* Aca empieza la ultima Tarjeta */
+
+    .contenedor-card{
     
     display: flex;
     flex-direction: column;
@@ -41,7 +95,7 @@
    text-align: center;
 }
 
-.contenedor-card-2{
+/* .contenedor-card-2{
     display: flex;
     flex-direction: column;
     width: 85%;
@@ -50,9 +104,9 @@
     
 
     
-}
+} */
 
-.card-2{
+/* .card-2{
     display: flex;
     background-image: linear-gradient(#C918F9,#8218F9);
     border-radius: 10px;
@@ -74,6 +128,8 @@
 }
 .card-imagen-2{
     width: 60%;
-   /*  border: 2px solid blue; */
+
 
 }
+ */
+
