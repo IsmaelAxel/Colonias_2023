@@ -54,6 +54,7 @@
     color: #fff;
     box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.24), 0 50px 50px 0 rgba(0, 0, 0, 0.19);
 }
+/* Aca termina las tarjetas iniciales */
 
 /* Aca empieza la ultima Tarjeta */
 
@@ -96,10 +97,11 @@
 
 .card-texto-1 {
     width: 100%;
-    /*  border: 2px solid green; */
     padding: 10px;
     text-align: center;
 }
+
+/* Acá termina la ultima tarjeta */
 
 /* Empiezan las tarjetas del footer */
 .containers{
@@ -125,6 +127,7 @@
  }
  .tarjetas:hover{
     box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.24), 0 50px 50px 0 rgba(0, 0, 0, 0.19);
+    transition: .5s;
  }
  .cuerpos{
      padding: 10px;
@@ -140,4 +143,4 @@
      border-top-left-radius: 20px;
      border-top-right-radius: 20px;
 }
-
+/* Acá terminan las tarjetas del footer */
